@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"initial/models"
 	"initial/tools"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func SingUp(sig models.SingUp) error {

@@ -6,6 +6,8 @@ import (
 	"initial/models"
 	"initial/secretsm"
 	"os"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var (
